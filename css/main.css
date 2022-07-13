@@ -208,8 +208,10 @@ h3 {
   color: #150c01;
 }
 
-.section-x::before {
-  background-image: url(./../../picture/background-img.png);
+.section-x {
+  background-image: url(../picture/background-img.png);
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 .wrapper {
