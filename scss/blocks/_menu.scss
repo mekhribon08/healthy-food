@@ -1,0 +1,99 @@
+.style-p {
+  @include p-style;
+  width: 700px;
+  text-align: center;
+  margin-left: 200px;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu-img {
+  margin-left: -20px;
+  margin-top: -20px;
+  width: 280px;
+  height: 210px;
+  border-radius: 76px 10px 76px 0px;
+}
+
+.span {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #150c01;
+  // margin-left: -35px;
+  margin: -30px 0;
+}
+
+.list {
+  padding: 20px;
+  width: 280px;
+  // box-shadow: 30px 40px 50px rgba(229, 233, 246, 0.4);
+  // box-shadow: 30px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 75px 10px 10px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.box {
+  background-color: #dc780b;
+  border-radius: 5px;
+  margin-right: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+}
+
+.flex {
+  display: flex;
+}
+
+.p {
+  @include p-style;
+}
+
+.button {
+  cursor: pointer;
+  color: #dc780b;
+  border: 1px solid #dc780b;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.3;
+  width: 142px;
+  height: 42px;
+  margin-top: 20px;
+  margin-left: 550px;
+  margin-bottom: 200px;
+
+  &:hover {
+    transition: 0.3s ease;
+    color: white;
+    background-color: #dc780b;
+    opacity: unset;
+  }
+}

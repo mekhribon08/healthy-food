@@ -1,0 +1,76 @@
+.all {
+  display: flex;
+  align-items: center;
+}
+
+.section-photo {
+  width: 671px;
+  height: 570px;
+}
+
+.h2 {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48.83px;
+  line-height: 58px;
+  color: #150c01;
+}
+
+.p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150c01;
+  opacity: 0.7;
+}
+
+.btn-secondary {
+  cursor: pointer;
+  width: 135px;
+  height: 55px;
+  background: #dc780b;
+  border: 1px solid #dc780b;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-top: 25px;
+
+  &:hover {
+    transform: rotate(20deg);
+    color: #dc780b;
+    border: 1.6px solid #dc780b;
+    opacity: 0.4;
+    background-color: #ffffff;
+    transition: 0.5s ease;
+  }
+}
+
+.btn-last {
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #dc780b;
+  width: 140px;
+  height: 55px;
+  border: 1.6px solid #dc780b;
+  opacity: 0.4;
+  margin-left: 20px;
+
+  &:hover {
+    transform: rotate(-20deg);
+    background: #dc780b;
+    border: 1px dashed #dc780b;
+    color: #ffffff;
+    opacity: unset;
+    transition: 0.5s ease;
+  }
+}
