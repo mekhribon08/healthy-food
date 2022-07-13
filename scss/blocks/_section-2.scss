@@ -6,7 +6,7 @@
 }
 
 .section__title {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 h5 {
@@ -30,18 +30,15 @@ h3 {
   color: #150c01;
 }
 
+.section-x::before {
+  background-image: url(./../../picture/background-img.png);
+}
+
 .wrapper {
   display: flex;
   align-items: center;
   margin-top: 150px;
-  // background-image: url(./../../picture/background-img.png);
-  // background-repeat: no-repeat;
-  // background-position: center left;
 }
-
-// .wrapper::before {
-//   background-image: url(./../../picture/background-img.png);
-// }
 
 .text {
   @include p-style;
@@ -79,7 +76,7 @@ h3 {
   color: #ffffff;
   margin-top: 20px;
 
-  &:hover {
+  &:focus {
     transform: scale(0.8);
     color: #dc780b;
     border: 1.6px solid #dc780b;
